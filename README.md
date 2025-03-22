@@ -3,39 +3,47 @@
 Muller's learning track on 15445 Database Systems
 
 ## About
-Muller's learning track on Berkeley-CS61A.
-- [Textbook (Database System Concepts)](https://www.db-book.com/)
-- [Course Website](https://15445.courses.cs.cmu.edu/fall2024/)
+This repository records my learning journey through CMU's 15-445 Database Systems course.
+- [Textbook Reference (Database System Concepts)](https://www.db-book.com/)
+- [Course Reference](https://15445.courses.cs.cmu.edu/fall2024/)
 
-## Calendar Overview
+## Repository Structure
 
-| Lecture                          | Lab & Discussion                                   | Homework                                       |
-|----------------------------------|--------------------------------------------------|-----------------------------------------------|
-| Welcome                          | [Disc 00: Getting Started](#) ([Solutions](#))   | None                                          |
-|                                  | [Lab 00: Getting Started](#) ([Solutions](#))    | Due Wed 9/4                                   |
-| Functions                        | [Lab 01: Functions](#) ([Solutions](#))          | [HW 01: Functions, Control](#) ([Solutions](#)) |
-|                                  |                                                  | Due Mon 9/9                                   |
-| Control                          | [Disc 01: Control, Environment Diagrams](#) ([Solutions](#)) | None                                          |
-| Higher-Order Functions           | [Lab 02: Higher-Order Functions, Lambda Expressions](#) ([Solutions](#)) | [HW 02: Higher-Order Functions](#) ([Solutions](#)) |
-|                                  |                                                  | Due Thu 9/12                                  |
-| Environments                     | None                                             | None                                          |
-| Functional Abstraction           | [Disc 02: Environment Diagrams, Higher-Order Functions](#) ([Solutions](#)) ([Video](#)) | None                                          |
-| Function Examples                | None                                             | None                                          |
-| Midterm 1 (8pm-10pm)             | None                                             | None                                          |
-| Recursion                        | [Disc 03: Recursion](#) ([Solutions](#))         | None                                          |
+Each project will be organized in its own directory with:
+- Source code
+- Documentation
+- Test cases
+- Performance analysis
 
----
+## Homeworks
 
-## Notes & Code
+| Homework | Description | Status |
+|----------|-------------|--------|
+| [SQL](./Homeworks/SQL/) | SQL query language and database design | 🔄 In Progress |
+| [Storage](./Homeworks/Storage/) | Database storage systems and page layout | ⏳ Not Started |
+| [Indexes & Filters](./Homeworks/Indexes%20%26%20Filters/) | Index structures and filter implementation | ⏳ Not Started |
+| [Query Execution](./Homeworks/Query%20Execution/) | Query execution and optimization | ⏳ Not Started |
+| [Concurrency Control](./Homeworks/Concurrency%20Control/) | Transaction management and isolation | ⏳ Not Started |
+| [Distributed Databases](./Homeworks/Distributed%20Databases/) | Distributed systems and replication | ⏳ Not Started |
 
-This section will be updated with notes and code files linked directly to their respective lectures and discussions.
+## Projects
 
----
+| Project | Description | Status |
+|---------|-------------|--------|
+| [C++ Primer](./Projects/C++%20Primer/) | C++ fundamentals and environment setup | 🔄 In Progress |
+| [Buffer Pool Manager](./Projects/Buffer%20Pool%20Manager/) | Memory management and page replacement | ⏳ Not Started |
+| [Database Index](./Projects/Database%20Index/) | Index structure implementation | ⏳ Not Started |
+| [Query Execution](./Projects/Query%20Execution/) | SQL query execution engine | ⏳ Not Started |
+| [Concurrency Control](./Projects/Concurrency%20Control/) | Transaction concurrency mechanisms | ⏳ Not Started |
 
-## Homework
+## Notes & Insights
 
-All homework files and solutions are listed below for easy access. Ensure timely submission based on due dates in the calendar above.
+This section will contain my personal notes, challenges faced, and insights gained during implementation.
 
-- [HW 01: Functions, Control](#) ([Solutions](#))
-- [HW 02: Higher-Order Functions](#) ([Solutions](#))
+## Resources
+
+Helpful resources I'm using beyond the course materials:
+- [CMU Database Group](https://db.cs.cmu.edu/)
+- [Database Internals Book](https://www.oreilly.com/library/view/database-internals/9781492040330/)
+- [Modern B-Tree Techniques](https://dl.acm.org/doi/10.1561/1900000028)
 
